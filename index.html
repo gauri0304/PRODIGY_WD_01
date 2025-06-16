@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+            <div class="logo">IT Courses</div>
+            <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Unlock Your Future with Top IT Courses</h1>
+            <p>Learn in-demand tech skills from industry experts. Start your journey in web development, data
+                science, cybersecurity, and more.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Our IT Courses</h2>
+            <p>
+                Our IT courses are designed to equip students and professionals with the latest
+                technical skills needed in today's digital world. From programming and web development
+                to cybersecurity and cloud computing, our curriculum is aligned with industry standards,
+                ensuring you gain real-world knowledge and job-ready skills.
+            </p>
+            <p>
+                Whether you're a beginner or looking to upskill, our expert instructors and
+                hands-on projects will help you build a strong foundation and grow your tech career.
+            </p>
+        </div>
+    </section>
+    
+    <!-- Why Choose Us Section -->
+    <section id="why" class="about-section">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <ul style="text-align: left; max-width: 800px; margin: auto;">
+                <li> Industry-experienced instructors</li>
+                <li> Real-world projects and certifications</li>
+                <li> Lifetime access to learning materials</li>
+                <li> Affordable pricing and flexible schedules</li>
+                <li> Excellent placement support</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="card">
+            <img src="https://wallpapercave.com/wp/wp2742499.jpg" alt="HTML/CSS"
+                style="width: 100%;">
+            <div class="container">
+                <h4><b>HTML/CSS</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/D5612AQHrjUU0MXAu2g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721241532232?e=2147483647&v=beta&t=6BjvEq5Nlf8QvqhpX0PFDGOCbHr3QorPsKZ492F730c" alt="JavaScript"
+                style="width: 100%;">
+            <div class="container">
+                <h4><b>Javascript</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/D5612AQHk1TSLucGSCQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1699339646894?e=2147483647&v=beta&t=snQJ1CVA4Bhx16tGiHk_ePXccBeBd59G2d_fjXObQZs" alt="DSA"
+                style="width: 100%;">
+            <div class="container">
+                <h4><b>DSA</b></h4>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://www.achieversit.com/management/uploads/course_image/python-img11.jpg" alt="python"
+                style="width: 100%;">
+            <div class="container">
+                <h4><b>Python</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg" alt="Data Science"
+                style="width: 100%;">
+            <div class="container">
+                <h4><b>Data Science</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="AI & ML.png" alt="AI & Machine Learning"
+                style="width: 100%; height: 100px;">
+            <div class="container">
+                <h4><b>AI & Machine Learning</b></h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need more info? We'd love to hear from you!</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background-color: #333; color: #fff;">
+        &copy; 2025 IT Courses. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
