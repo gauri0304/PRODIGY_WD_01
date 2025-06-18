@@ -4,7 +4,7 @@ Create an interactive navigation menu that changes color or style when scrolled 
 -
 PRODIGY INFOTECH
 
-Key Features:
-🔸 Dynamic style change on scroll & hover
-🔸 Clean UI & fully mobile responsive
+Key Features: <br> 
+🔸 Dynamic style change on scroll & hover <br>
+🔸 Clean UI & fully mobile responsive <br>
 🔸 Structured with HTML, styled with CSS, and enhanced interactivity using JavaScript
