@@ -8,3 +8,5 @@ Key Features: <br>
 🔸 Dynamic style change on scroll & hover <br>
 🔸 Clean UI & fully mobile responsive <br>
 🔸 Structured with HTML, styled with CSS, and enhanced interactivity using JavaScript
+
+Live Demo: https://gauri0304.github.io/PRODIGY_WD_01/
