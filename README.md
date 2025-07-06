@@ -24,14 +24,6 @@ A visually appealing, fully responsive **Landing Page** created as **Task 1** fo
 
 ---
 
-## 📸 Screenshot
-
-> *Insert a screenshot here once uploaded to `images/` or use a GitHub-hosted image link.*
-
-![Landing Page Preview](https://user-images.githubusercontent.com/your-image-link)
-
----
-
 ## 🗂️ Folder Structure
 
 PRODIGY_WD_01/ <br>
