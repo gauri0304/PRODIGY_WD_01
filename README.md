@@ -1,14 +1,52 @@
-01
-Task-01
+# 🌐 Responsive Landing Page – PRODIGY_WD_01
 
-Respondive Navigation Page <br>
-Live Demo: https://gauri0304.github.io/PRODIGY_WD_01/ <br>
+A visually appealing, fully responsive **Landing Page** created as **Task 1** for the **Web Development Internship at Prodigy InfoTech**.
 
-Create an interactive navigation menu that changes color or style when scrolled or when hovering over a menu item. The navigation Responsive menu should have a fixed position and be visible on all pages. Use Landing Page HTML to structure the menu, CSS to style it, and JavaScript to add interactivity, such as changing the background color or font color of the menu when it is scrolled or when a menu item is hovered over.
--
-PRODIGY INFOTECH
+🔗 [Live Demo](https://gauri0304.github.io/PRODIGY_WD_01/)
 
-Key Features: <br> 
-🔸 Dynamic style change on scroll & hover <br>
-🔸 Clean UI & fully mobile responsive <br>
-🔸 Structured with HTML, styled with CSS, and enhanced interactivity using JavaScript
+---
+
+## 🎯 Features
+
+- 🖼️ **Hero Section** with a catchy headline and call-to-action
+- 📱 **Responsive Design** – Seamless across mobile, tablet, and desktop
+- 📑 **About** and **Services** sections for better structure
+- ✨ **CSS Animations** and hover effects for interactivity
+- 🔗 **Navigation Bar** with smooth scrolling links
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Semantic and structured content
+- **CSS3** – Custom styling, flexbox, and media queries
+- **JavaScript (optional)** – For interactivity (if used)
+
+---
+
+## 📸 Screenshot
+
+> *Insert a screenshot here once uploaded to `images/` or use a GitHub-hosted image link.*
+
+![Landing Page Preview](https://user-images.githubusercontent.com/your-image-link)
+
+---
+
+## 🗂️ Folder Structure
+
+PRODIGY_WD_01/ <br>
+│ <br>
+├── index.html <br>
+├── style.css <br>
+├── /images <br>
+└── README.md 
+
+--- 
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gauri0304/PRODIGY_WD_01.git
+
+2. Navigate into the project directory:
+
+   cd PRODIGY_WD_01
